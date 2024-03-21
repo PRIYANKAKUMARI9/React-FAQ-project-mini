@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.faqouter{
+  width: 900px;
+  margin: auto;
+}
+.faqitems{
+  border:  1px solid rgb(241, 238, 238);
+  margin-bottom: 30px;
+}
+
+.faqitems h2{
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(66, 77, 56);
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+.faqitems p{
+  text-align: left;
+  padding: 0px;
+  height: 0px;
+  margin: 0px;
+  transform: scaleY(0);
+  background-color: rgb(58, 58, 66);
+  color: white;
+}
+.activeans{
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 10px !important;
+}
